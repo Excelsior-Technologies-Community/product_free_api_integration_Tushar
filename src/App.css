@@ -1,0 +1,70 @@
+.app {
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+  font-family: Arial;
+}
+.app h1 {
+  font-size: 32px;
+ /* background: rgb(0, 0, 0); */
+ background-image: url(assets/2206_w019_n001_602b_p15_602.jpg);
+background-size: cover;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  
+}
+
+.card {
+  padding: 15px;
+  border: 1px solid #ddd;.app {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial;
+  cursor: pointer;
+  
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: 0.3s;
+  
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 150px;
+  object-fit: contain;
+}
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 150px;
+  object-fit: contain;
+}
